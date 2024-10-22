@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [ "$1" == "" ]; then
+        echo "specify device"
+        exit 1
+fi
+
+exdir=$(dirname $(readlink -f "$BASH_SOURCE"))
+
+node "$exdir"/dist $1

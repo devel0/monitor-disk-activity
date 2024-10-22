@@ -17,6 +17,12 @@ npm run build
 node dist /dev/DISK
 ```
 
+or use the script
+
+```sh
+monitor-disk /dev/DISK
+```
+
 ## references
 
 - [typescript template](https://github.com/sezRR/nodejs-typescript-template/tree/7739711b5cb735632878279a55ffb6de02ebe07f)
