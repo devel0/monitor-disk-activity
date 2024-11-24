@@ -5,6 +5,7 @@
 ## install
 
 ```sh
+apt install sysstat
 git clone https://github.com/devel0/monitor-disk-activity.git
 cd monitor-disk-activity
 npm i
