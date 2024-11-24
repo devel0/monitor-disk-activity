@@ -25,6 +25,7 @@ const p = child_process.spawn(
         "1"
     ],
     {
+        shell: true,
         env: {
             LC_NUMERIC: 'en'
         }
